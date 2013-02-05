@@ -1,0 +1,23 @@
+
+    <!--FOOTER WITH OPEN BLOCK FIELD-->
+
+    <footer id="footer">
+    	<div id="footerTopBorder" class="footerBorder"></div>
+      	<squarespace:block-field id="footerBlocks" columns="12" />
+      	<div id="footerBottomBorder" class="footerBorder"></div>
+      	<squarespace:block-field id="bottomFooterBlocks" columns="12" />
+    </footer>
+    
+    
+    
+    
+    </div>
+    </div>
+
+    <!--INJECTION POINT FOR TRACKING SCRIPTS AND USER CONTENT FROM THE CODE INJECTION TAB-->
+
+    {squarespace-footers}
+    
+  </body>
+
+</html> 
