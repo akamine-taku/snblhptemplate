@@ -1,0 +1,20 @@
+
+
+{.section item}
+  <!--WRAPPER-->
+  
+  <article id="post-{id}" class="{@|item-classes}">
+  
+  	<!--POST TILE-->
+    <h1 class="title">
+      {title}
+    </h1>
+
+    <!--MAIN CONTENT-->
+    {body}
+
+    <!--BLOG INJECTION-->
+    {postItemInjectCode}    
+
+  </article>
+{.end}
