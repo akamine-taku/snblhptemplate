@@ -1,0 +1,8 @@
+
+    <!--SIDEBAR INJECTION POINT-->
+    <aside id="sidebar">
+    
+    <!--SIDEBAR BLOCKS-->
+    <squarespace:block-field id="productsNav" columns="1" />
+    
+    </aside>
