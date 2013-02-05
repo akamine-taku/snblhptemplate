@@ -1,0 +1,8 @@
+
+    <!--SIDEBAR INJECTION POINT-->
+    <aside id="sidebar">
+    
+    <!--FOLDER NAVIGATION-->
+    <squarespace:folder-navigation template="foldernav" />
+    
+    </aside>
