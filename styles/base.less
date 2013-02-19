@@ -234,6 +234,39 @@ body {
 }
 
 
+
+/* SIDEBAR
+-----------------------------------------------*/
+	#sidebar {
+		width: 20%;
+		min-width: 200px;
+		float: left;
+		margin-bottom: 35px;
+		#folder-navigation {
+			ul {
+				padding: 0px;
+				li {
+					list-style-type: none;
+					font-family: @sansFont;
+					font-size: 13px;
+					font-weight: 200;
+					margin-bottom: 5px;
+					a {
+						text-decoration: none;
+					}
+				}
+				li:nth-child(1) {
+					display: none;
+				}
+				.active-link a {
+					color: #333;
+				}
+			}
+		}
+	}
+
+
+
 /* FOOTER
 -----------------------------------------------*/
 #footer {
@@ -418,33 +451,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fffdf7', end
 		.col:last-child .sqs-block {
 			padding-right: 0px;
 		}
-	}
-	#sidebar {
-		width: 20%;
-		min-width: 190px;
-		float: left;
-		#folder-navigation {
-			ul {
-				padding: 0px;
-				li {
-					list-style-type: none;
-					font-family: @sansFont;
-					font-size: 13px;
-					font-weight: 200;
-					a {
-						text-decoration: none;
-					}
-				}
-				li:nth-child(1) {
-					display: none;
-				}
-				.active-link a {
-					color: #333;
-				}
-			}
-		}
-	}
-	
+	}	
 	.sqs-row {
 		margin-left: 0px !important;
 		margin-right: 0px !important;
@@ -504,27 +511,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fffdf7', end
 	
 	
 	#sidebar {
-		width: 20%;
-		min-width: 200px;
-		float: left;
-		margin-bottom: 35px;
 		#folder-navigation {
 			display: none;
-			ul {
-				padding: 0px;
-				li {
-					list-style-type: none;
-					font-family: @sansFont;
-					font-size: 13px;
-					font-weight: 200;
-					a {
-						text-decoration: none;
-					}
-				}
-				li:nth-child(1) {
-					display: none;
-				}
-			}
 		}
 		/* ---- subsection nav ---- */
 		.row {
@@ -535,7 +523,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fffdf7', end
 			}	
 		}
 		h1 {
-			margin-bottom: 5px;
+			margin-bottom: 0px;
 			a {
 				font-size: 13px;
 				color: #999999;
@@ -546,6 +534,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fffdf7', end
 		}
 		.summary-block {
 			.summary-item-list {
+				margin-top: 8px;
 				margin-bottom: 5px;
 				.summary-item {
 					padding-left: 10px;
