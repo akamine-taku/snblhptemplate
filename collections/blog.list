@@ -15,15 +15,12 @@
 {.end}
 
 <!--ITEM LOOP-->
-
 {.repeated section items}
 
   <!--WRAPPER-->
-  
   <article id="post-{id}" class="{@|item-classes}">
     
     <!--MAIN IMAGE-->
-
     {.main-image?}  
       <a href="{fullUrl}" class="main-image content-fill">
         <img {@|image-meta} />
