@@ -59,14 +59,18 @@
     {postItemInjectCode}    
 
     <!--CATEGORIES-->
+    <div class="categories">
     {.repeated section categories}
       <a class="category" href="?category={@|url-encode}">{@}</a>{.alternates with}/
     {.end}
+    </div>
 
     <!--TAGS-->
+    <div class="tags">
     {.repeated section tags}
       <a class="tag" href="?tag={@|url-encode}">{@}</a>{.alternates with}/
     {.end}
+    </div>
 
     <!--SHARE AND LIKE-->
     <!--
