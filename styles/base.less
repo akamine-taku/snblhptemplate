@@ -150,6 +150,45 @@ hr {
 
 
 
+/* SLIDESHOWS
+-----------------------------------------------*/
+.LargeSlideshow { 
+	width: 100%; 
+	max-width: 1000px !important; 
+	height: 475px;
+	overflow: hidden !important;
+	img { 
+		position: absolute; display: none; 
+	} 
+}
+
+
+.slideshow { 
+	background-size:contain; 
+}
+
+.nivo-slice { 
+	position: absolute; 
+}
+.nivoSlider a { 
+	display: none; 
+	a.nivo-imageLink { 
+		position:absolute; 
+		top: 0px; 
+		left: 0px; 
+		width: 100%; 
+		height: 100%; 
+		border: 0; 
+		padding: 0; 
+		margin: 0; 
+		display: none; 
+		z-index: 10 !important; 
+	}
+}
+
+
+
+
 /* MAIN
 -----------------------------------------------*/
 body {
@@ -673,45 +712,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fffdf7', end
 
 
 
-
-
-
-
-/* SLIDESHOWS
------------------------------------------------*/
-.LargeSlideshow { 
-	width: 100%; 
-	max-width: 1000px !important; 
-	height: 475px;
-	overflow: hidden !important;
-	img { 
-		position: absolute; display: none; 
-	} 
-}
-
-
-.slideshow { 
-	background-size:contain; 
-}
-
-.nivo-slice { 
-	position: absolute; 
-}
-.nivoSlider a { 
-	display: none; 
-	a.nivo-imageLink { 
-		position:absolute; 
-		top: 0px; 
-		left: 0px; 
-		width: 100%; 
-		height: 100%; 
-		border: 0; 
-		padding: 0; 
-		margin: 0; 
-		display: none; 
-		z-index: 10 !important; 
-	}
-}
 
 
 
