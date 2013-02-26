@@ -5,4 +5,7 @@
     <!--FOLDER NAVIGATION-->
     <squarespace:folder-navigation template="foldernav" />
     
+    <!--SIDEBAR BLOCKS-->
+    <squarespace:block-field id="SidebarBlocks-{collection.id}" columns="12" />
+    
     </aside>
