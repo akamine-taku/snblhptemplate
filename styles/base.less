@@ -620,7 +620,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fffdf7', end
 -----------------------------------------------*/
 
 .collection-type-blog {
-
   /* BOTH PAGES 
   ---------------------------------------------*/
   article .title, article .title a {
@@ -629,14 +628,23 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fffdf7', end
 
   /* LIST PAGE
   ---------------------------------------------*/
-
-  &.view-list { }
+  &.view-list {
+  	article {
+  		margin-bottom: 30px;
+  	}
+  }
 
   /* ITEM PAGE
   ---------------------------------------------*/  
-
   &.view-item { }
   
+}
+
+.pagination , .categories, .tags {
+	font-size: 11px !important;
+	a {
+		text-decoration: none;
+	}
 }
 
 
