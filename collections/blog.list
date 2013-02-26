@@ -80,6 +80,7 @@
     -->
 
     <!--LOCATION-->
+    <!--
     {.section location}
       {.section addressTitle}
         {addressTitle}
@@ -88,6 +89,7 @@
         {addressCountry}
       {.end}
     {.end}
+    -->
 
   </article>
 
