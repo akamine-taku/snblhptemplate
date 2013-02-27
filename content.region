@@ -3,4 +3,5 @@
 
     <section id="content">    
      {squarespace.main-content}
+     <squarespace:block-field id="ContentBlocks-{collection.id}" columns="12" />
     </section>
