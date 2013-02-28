@@ -436,7 +436,72 @@ body {
 /* HOMEPAGE
 -----------------------------------------------*/
 
-.homepage { }
+.homepage { 
+	#header {
+		margin-bottom: 15px;
+	}
+ .contentBlocks {
+ 	padding-top: 15px;
+ 	padding-left: 60px;
+ 	padding-right: 60px;
+ 	padding-bottom: 0px;
+ 	h2 {
+ 		font-size: 1em;
+ 	}
+ 	.row:first-child {
+ 		.sqs-block {
+ 			padding-bottom: 0px;
+ 		}
+ 	}
+ 	.summary-block {
+ 		.summary-item {
+ 			.summary-title {
+ 				a {
+ 					font-size: 14px;
+ 					line-height: 16px;
+ 					text-decoration: none;
+ 				}
+ 			}
+ 			.timestamp {
+ 				font-size: 10px;
+ 				font-family: @sansFont;
+ 				text-transform: lowercase;
+ 				//display: none;
+ 			}
+ 			.summary-excerpt {
+ 				margin-top: 0px;
+ 			}
+ 		}
+ 	}
+ 	.col:first-child {
+ 		.sqs-block {
+ 			padding-right: 30px;
+ 		}
+ 	}
+ 	.col:last-child {
+ 		.sqs-block {
+ 			padding-left: 30px;
+ 		}
+ 		.summary-block {
+ 			.summary-item {
+ 				padding-bottom: 10px;
+ 				border-bottom: 1px dotted #eee;
+ 				margin-bottom: 10px;
+ 				.timestamp {
+ 					display: none !important;
+ 				}
+ 				.summary-excerpt {
+ 					display: none !important;
+ 				}
+ 			}
+ 			.summary-item:last-child {
+ 				border-bottom: none;
+ 			}
+ 		}
+ 	}
+ }
+}
+
 
 
 
