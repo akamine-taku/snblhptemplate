@@ -35,7 +35,7 @@
     <!--
     <div class="categories">
     {.repeated section categories}
-      <a class="category" href="?category={@|url-encode}">{@}</a>{.alternates with}/
+      <a class="category" href="?category={@|url-encode}">{@}</a>{.alternates with} /
     {.end}
     </div>
     -->
@@ -44,7 +44,7 @@
     <div class="tags">
     Topics: 
     {.repeated section tags}
-      <a class="tag" href="?tag={@|url-encode}">{@}</a>{.alternates with}/
+      <a class="tag" href="?tag={@|url-encode}">{@}</a>{.alternates with} /
     {.end}
     </div>
 
