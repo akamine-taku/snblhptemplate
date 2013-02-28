@@ -686,6 +686,146 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fffdf7', end
 
 
 
+/* LIBRARY
+-----------------------------------------------*/
+.collection-type-library {
+
+/* BOTH PAGES 
+  ---------------------------------------------*/
+h1 {
+	margin-top: 0px;
+}
+
+article {
+	position: relative;
+	float: left;
+	padding: 20px;
+	border: 1px solid #eee;
+	margin: 5px;
+	overflow: hidden;
+	.libIcon {
+		position: absolute;
+		width: 100px;
+		height: 100px;
+	}
+	.postContentWrapper {
+		margin-left: 110px;
+		overflow: hidden;
+		.title, .title a {
+			font-weight: normal !important;
+			padding: 0px !important;
+			background: none !important;
+			margin: 0px !important;
+		}
+		.meta {
+			font-size: 10px !important;
+			margin-bottom: 5px;
+		}
+		.sqs-block {
+			border: none !important;
+		}
+		.sqs-block:last-child {
+			//padding-bottom: 5px;
+		}
+		.image-block {
+			width: 50px !important;
+			position: absolute;
+			top: 50px;
+			right: 10px;
+		}
+	}
+}
+
+.category-publications-and-papers {
+	.libIcon {
+		background: url("/assets/LibIcon_Papers.jpg") no-repeat;
+	}
+}
+.category-posters {
+	.libIcon {
+		background: url("/assets/LibIcon_Posters.jpg") no-repeat;
+	}
+}
+.category-videos {
+	.libIcon {
+		background: url("/assets/LibIcon_Videos.jpg") no-repeat;
+	}
+}
+.category-brochures-and-information {
+	.libIcon {
+		background: url("/assets/LibIcon_Brochures.jpg") no-repeat;
+	}
+}
+
+
+/* LIST PAGE
+  ---------------------------------------------*/
+  &.view-list { 
+	#articleListWrapper {
+		margin-left: -25px;
+		overflow: hidden;
+		article {
+			//width: 360px;
+			//height: 200px;
+			width: 775px;
+			min-height: 100px;
+			.title, .title a {
+				font-size: 12px !important;
+				line-height: 14px;
+				font-weight: normal !important;
+			}
+			p {
+				font-size: 11px !important;
+				line-height: 15px !important;
+			}
+			.excerpt {
+				p {
+					padding-right: 60px;
+				}
+				.readMoreLink {
+					background: url("/assets/openBtn.png") no-repeat;
+					width: 50px;
+					height: 50px;
+					position: absolute;
+					top: 50px;
+					right: 0px;
+				}
+			}
+		}
+		article:hover {
+			background: #F3F4F7;
+		}
+	}
+  }
+  
+  /* ITEM PAGE
+  ---------------------------------------------*/  
+  &.view-item { 
+  	article {
+  		margin-left: -20px;
+  		padding: 0px;
+  		border: none;
+  		.postContentWrapper {
+  			h1, .title {
+  				font-size: 16px !important;
+  				line-height: 18px;
+  			}
+  		}
+  	}
+  	.pagination {
+  		display: none;
+  	}
+  }
+  
+}
+
+
+
+
+
+
+
+
 
 /* CONTACT
 -----------------------------------------------*/
