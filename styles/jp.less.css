@@ -1,0 +1,16 @@
+/* CONTACT
+-----------------------------------------------*/
+.collection-512c44ade4b09977737b0a26 {
+			.col .sqs-block {
+				border-left: none !important;
+				padding-left: 20px;
+				padding-right: 20px;
+			}
+			.col:first-child .sqs-block {
+				border-left: none;
+				padding-left: 0px;
+			}
+			.col:last-child .sqs-block {
+				padding-right: 0px;
+			}
+}
