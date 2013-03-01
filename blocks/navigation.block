@@ -6,17 +6,13 @@
         <li class="{.section active} active-link{.end}{.if folderActive} active-folder{.end}">
 
           {.folder?}
-
             <!--FOLDER-->
-
-              <a class="folderLink" href="{collection.fullUrl}">{collection.navigationTitle}</a>
+              <a class="folderLink" href="{collection.fullUrl}">{collection.navigationTitle}</a> <span class="altDivider">/</span>
 
               <ul>
-
                 {.repeated section items}
 
                   <!--COLLECTION IN A FOLDER-->
-
                   {.collection?}
                     <li class="{.section active} active-link{.end}">
                       <a href="{collection.fullUrl}">
@@ -26,7 +22,6 @@
                   {.end}
 
                   <!--EXTERNAL LINK IN A FOLDER-->
-
                   {.section externalLink}
                     <li>
                       <a href="{url}"{.section newWindow} target="_blank"{.end}>
@@ -41,15 +36,13 @@
           {.or}
 
             <!--COLLECTION-->
-
             {.section collection}
-              <a href="{fullUrl}">{navigationTitle}</a>
+              <a href="{fullUrl}">{navigationTitle}</a> <span class="altDivider">/</span>
             {.end}
 
             <!--EXTERNAL LINK-->
-
             {.section externalLink}
-              <a href="{url}"{.section newWindow} target="_blank"{.end}>
+              <a href="{url}"{.section newWindow} target="_blank"{.end}> <span class="altDivider">/</span>
                 {title}
               </a>
             {.end}
