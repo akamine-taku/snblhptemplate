@@ -7,7 +7,7 @@
 
           {.folder?}
             <!--FOLDER-->
-              <a class="folderLink" href="{collection.fullUrl}">{collection.navigationTitle}</a> <span class="altDivider">/</span>
+              <a class="folderLink" href="{collection.fullUrl}">{collection.navigationTitle}</a>
 
               <ul>
                 {.repeated section items}
@@ -37,17 +37,19 @@
 
             <!--COLLECTION-->
             {.section collection}
-              <a href="{fullUrl}">{navigationTitle}</a> <span class="altDivider">/</span>
+              <a href="{fullUrl}">{navigationTitle}</a>
             {.end}
 
             <!--EXTERNAL LINK-->
             {.section externalLink}
-              <a href="{url}"{.section newWindow} target="_blank"{.end}> <span class="altDivider">/</span>
+              <a href="{url}"{.section newWindow} target="_blank"{.end}>
                 {title}
               </a>
             {.end}
 
           {.end}
+          
+          <span class="altDivider">/</span>
 
         </li>
         
