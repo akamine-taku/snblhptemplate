@@ -14,6 +14,13 @@
 <script type="text/javascript">
     $(function() {
 		
+		/* overview nav button colors */
+    	$("#folderNav ul li:nth-child(2n)").css("background-color", "rgba(77, 178, 210, 1)");
+    	$("#folderNav ul li:nth-child(3n)").css("background-color", "rgba(39, 109, 48, 1");
+    	$("#folderNav ul li:nth-child(4n)").css("background-color", "rgba(9, 31, 88, 1)");
+    	$("#folderNav ul li:nth-child(5n)").css("background-color", "rgba(128, 130, 133, 1)");
+    	$("#folderNav ul li:nth-child(6n)").css("background-color", "rgba(238, 156, 19, 1)");
+		
 		/* active sidebar links */
 		$("#sidebar h1 a, #sidebar .summary-title a").each(function(){ 
    			var currentNav = $(this);
