@@ -13,9 +13,6 @@
 
 <script type="text/javascript">
     $(function() {
-    
-    	/* remove last divider from main nav */
-    	$("#main-navigation ul li:last .altDivider).css("display", "none");
 		
     	/* overview nav button colors */
     	$(".collection-layout-SectionOverviewPage #folderNav ul li:nth-child(2n)").css("background-color", "rgba(77, 178, 210, 1)");
