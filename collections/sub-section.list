@@ -1,1 +1,1 @@
-<squarespace:block-field id="subSectionOverview-{collection.id}" columns="12" />
+<squarespace:block-field id="subSectionOverview-{collection.id}" class="subsectionOverview" columns="12" />
