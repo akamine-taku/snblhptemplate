@@ -3,6 +3,6 @@
     <aside id="sidebar">
     
     <!--SIDEBAR BLOCKS-->
-    <squarespace:block-field id="productsNav" columns="1" />
+    <squarespace:block-field id="sectionNav" columns="1" />
     
     </aside>
