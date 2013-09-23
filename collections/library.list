@@ -125,18 +125,18 @@
 
     <!--NEWER PAGE-->
     {.if pagination.prevPage}
-      <a href="{pagination.prevPageUrl}">Newer</a>
+      <a href="{pagination.prevPageUrl}">Prev</a>
     {.or}
-      <a class="disabled">Newer</a>
+      <a class="disabled">Prev</a>
     {.end}
     
     /
 
     <!--OLDER PAGE-->
     {.if pagination.nextPage}
-      <a href="{pagination.nextPageUrl}">Older</a>
+      <a href="{pagination.nextPageUrl}">Next</a>
     {.or}
-      <a class="disabled">Older</a>
+      <a class="disabled">Next</a>
     {.end}
 
   </nav>
