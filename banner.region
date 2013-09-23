@@ -1,28 +1,5 @@
 
-<!--CONTENT INJECTION POINT-->
-
-<section id="content">  
-      
-	<div id="SectionOverview">
-     
-     	<div id="leftCol">
-     		<div class="inside">
-      			<squarespace:block-field id="LeftOverviewBlocks-{collection.id}" columns="12" />
-      			<!--FOLDER NAVIGATION-->
-      			<div id="folderNav">
-      				<squarespace:folder-navigation template="foldernav" />
-      			</div>
-      		</div>
-		</div>
-    
-    	<div id="rightCol">
-    		<div class="inside">
-    			<squarespace:block-field id="RightOverviewBlocks-{collection.id}" columns="12" />
-    		</div>
-    	</div>
-    
-	</div>
-	
-	{squarespace.main-content}
-    
-</section>
+<!--BANNER-->
+<div id="BannerWrapper">
+	<squarespace:block-field id="PageBanner-{collection.id}" columns="12" />    
+</div>
