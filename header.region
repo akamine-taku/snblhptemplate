@@ -44,7 +44,11 @@
   </head>
 
   <body id="{squarespace.page-id}" class="{squarespace.page-classes}">
-
+       <div id="wovn-languages" style="display: block;" >
+        <a class="wovn-switch selected" data-value="ja">日本語</a>
+         /
+        <a class="wovn-switch" data-value="en">English</a>
+       </div>
     <div id="canvasWrapper">
     <div id="canvas">
 
@@ -54,11 +58,7 @@
       <a href="http://www.snbl-china.com"><img src="/assets/Flag_China.jpg"></a>
       </div>
 
-      <div id="wovn-languages" style="display: block;" >
-        <a class="wovn-switch selected" data-value="ja">日本語</a>
-         /
-        <a class="wovn-switch" data-value="en">English</a>
-       </div>
+
 
 
     <!--HEADER-->
