@@ -52,8 +52,9 @@
 
         <span class="wovn-switch selected" data-value="ja">日本語</span>
          /
-        <span class="wovn-switch" data-value="en">English Ver</span>
+        <span class="wovn-switch" data-value="en">English</span>
        </div>
+       <p>Please Click "English" text area if you need English Ver. </p>
        <br/>
       <a href="http://www.snbl.com"><img src="/assets/Flag_US.jpg"></a>
       <a href="http://www.snbl.co.jp"><img src="/assets/Flag_Japan.jpg"></a>
