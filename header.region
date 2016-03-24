@@ -49,9 +49,10 @@
 
       <div id="flags">
       <div id="wovn-languages" style="display: block;" >
+        Please Click "English" text to change Englsh Version!!
         <span class="wovn-switch selected" data-value="ja">日本語</span>
          /
-        <span class="wovn-switch" data-value="en">English</span>
+        <span class="wovn-switch" data-value="en">English Ver</span>
        </div>
       <a href="http://www.snbl.com"><img src="/assets/Flag_US.jpg"></a>
       <a href="http://www.snbl.co.jp"><img src="/assets/Flag_Japan.jpg"></a>
