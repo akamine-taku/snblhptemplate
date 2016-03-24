@@ -51,9 +51,9 @@
       <!--WOVN.io -->
       <div id="wovn-languages" style="display: block;" >
 
-        <span class="wovn-switch selected" data-value="ja"><span style="cursor: hand; cursor:pointer;"><strong>日本語</strong></span></span>
+        <span class="wovn-switch selected" data-value="ja"><span style="font-size:12px;cursor: hand; cursor:pointer;"><strong>日本語</strong></span></span>
          /
-        <span class="wovn-switch" data-value="en"><strong><span style="cursor: hand; cursor:pointer;">English</strong></span></span>
+        <span class="wovn-switch" data-value="en"><span style="font-size:12px;cursor: hand; cursor:pointer;"><strong>English</strong></span></span>
        </div>
        <p style="font-size:9px;margin: 0em 0px;text-align: right;"><strong>Please Click "English"</strong></p>
        <p style="font-size:9px;margin: 0em 0px;text-align: right;"><strong>for English Ver. </strong></p>
