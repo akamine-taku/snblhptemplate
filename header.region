@@ -50,13 +50,12 @@
       <div id="flags">
       <div id="wovn-languages" style="display: block;" >
 
-        <span class="wovn-switch selected" data-value="ja">日本語</span>
+        <span class="wovn-switch selected" data-value="ja"><strong>日本語</strong></span>
          /
-        <span class="wovn-switch" data-value="en">English</span>
+        <span class="wovn-switch" data-value="en"><strong>English</strong></span>
        </div>
      <br/>
-       <p style="font-size:5pt;"><strong>Please Click "English" text area </strong></p>
-       <p style="font-size:5pt;"><strong>if you need English Ver. </strong></p>
+       <p style="font-size:5pt;width:60%;"><strong>Please Click "English" text area if you need English Ver. </strong></p>
       <a href="http://www.snbl.com"><img src="/assets/Flag_US.jpg"></a>
       <a href="http://www.snbl.co.jp"><img src="/assets/Flag_Japan.jpg"></a>
       <a href="http://www.snbl-china.com"><img src="/assets/Flag_China.jpg"></a>
