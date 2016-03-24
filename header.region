@@ -48,14 +48,17 @@
       <div id="canvas">
 
       <div id="flags">
+      <!--WOVN.io -->
       <div id="wovn-languages" style="display: block;" >
 
         <span class="wovn-switch selected" data-value="ja"><strong>日本語</strong></span>
          /
         <span class="wovn-switch" data-value="en"><strong>English</strong></span>
        </div>
-       <p style="font-size:8px;margin: 0em 0px;text-align: right;"><strong>Please Click "English" text area </strong></p>
-       <p style="font-size:8px;margin: 0em 0px;text-align: right;"><strong>if you need English Ver. </strong></p>
+       <p style="font-size:9px;margin: 0em 0px;text-align: right;"><strong>Please Click "English" text area </strong></p>
+       <p style="font-size:9px;margin: 0em 0px;text-align: right;"><strong>if you need English Ver. </strong></p>
+
+      <!--flag img -->
       <a href="http://www.snbl.com"><img src="/assets/Flag_US.jpg"></a>
       <a href="http://www.snbl.co.jp"><img src="/assets/Flag_Japan.jpg"></a>
       <a href="http://www.snbl-china.com"><img src="/assets/Flag_China.jpg"></a>
