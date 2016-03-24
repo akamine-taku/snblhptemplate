@@ -55,8 +55,8 @@
         <span class="wovn-switch" data-value="en">English</span>
        </div>
      <br/>
-       <p style="font-size:12pt;">Please Click "English" text area </p>
-       <p style="font-size:12pt;">if you need English Ver. </p>
+       <p style="font-size:5pt;">Please Click "English" text area </p>
+       <p style="font-size:5pt;">if you need English Ver. </p>
       <a href="http://www.snbl.com"><img src="/assets/Flag_US.jpg"></a>
       <a href="http://www.snbl.co.jp"><img src="/assets/Flag_Japan.jpg"></a>
       <a href="http://www.snbl-china.com"><img src="/assets/Flag_China.jpg"></a>
