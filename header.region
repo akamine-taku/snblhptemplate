@@ -78,7 +78,7 @@
         <h1 data-content-field="site-title">
           <a href="/">
             {.section logoImageUrl}
-             <img src="{logoImageUrl}?format=original" alt="{siteTitle}" />
+             <img src="{logoImageUrl}?format=original" alt="新日本科学" />
             {.or}
               {siteTitle}
             {.end}
