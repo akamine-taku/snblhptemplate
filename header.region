@@ -59,7 +59,7 @@
        </div>
 
       <!--flag img -->
-       <p style="margin: 0em 0px;text-align: right;">
+       <p style="margin: 10px;text-align: right;">
        <a href="http://www.snbl.com"><img src="/assets/Flag_US.jpg"></a>
        <a href="http://www.snbl.co.jp"><img src="/assets/Flag_Japan.jpg"></a>
        <a href="http://www.snbl-china.com"><img src="/assets/Flag_China.jpg"></a>
